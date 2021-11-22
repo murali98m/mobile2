@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="box1">
+        <h1>Task <span style="font-weight:normal;" >List <i class="fas fa-plus-circle" id="button"></i>Add List</span> </h1> 
+           <div class="box2">
+               <h3>Trip to Paris</h3>
+               <hr>
+               <p >Completed task </p>
+               <input type="checkbox" name="task" id="task">
+               <label for="task">Pending task</label>
+           </div>
+           <div class="box2">
+               <h3>My do list</h3>
+               <hr>
+               <p >Completed task </p>
+               <input type="checkbox" name="task" id="task">
+               <label for="task">Pending task</label>
+           </div>
+           <div class="box2">
+               <h3>My do list</h3>
+               <hr>
+               <p >Completed task </p>
+               <input type="checkbox" name="task" id="task">
+               <label for="task">Pending task</label>
+           </div>
+    </div>
+       <div class="box4">
+          <h3> Add New List</h3>
+          <input type="text" id="text"><br><br>
+          <button id="butt">ADD</button>
+       </div>
+       <div id="box5">
+        <a href="index.html" type="new_tabe"> <div class="box6"> <i class="fas fa-home"></i></div></a>
+        <a href="index1.html" type="new_tabe"> <div class="box6"> <i class="fas fa-chevron-circle-left"></i></div></a>
+        <a href="index3.html" type="new_tabe"> <div class="box6"> <i class="fas fa-chevron-circle-right"></i></div></a>
+        <!-- <a href="index3.html" type="new_tabe"> <div class="box6"> <i class="fas fa-chevron-circle-left"></i></div></a> -->
+    </div> 
+</body>
+<style>
+    #box1
+    {
+        filter: blur(6px);
+        position: relative;
+    }
+    .box4
+{
+    height: 180px;
+    width: 300px;
+    border: 3px solid rgb(180, 119, 119);
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: -25%;
+    position: absolute;
+    text-align: center;
+}
+#text
+{
+    border-radius: 5px;
+    border-color: rgb(180, 119, 119);
+    height: 50px;
+    width: 200px;
+
+}
+#butt
+{
+    background-color: red;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+    color: cornsilk;
+}
+</style>
+</html>
