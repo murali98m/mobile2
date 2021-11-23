@@ -89,3 +89,47 @@ p
     margin-left: 50px;
     margin-top: -25%;
 }
+@media (max-width: 600px) {
+    h1
+    {
+        font-size: 30px;
+    }
+    #box1
+        {
+            height: 500px;
+            width: 400px;
+            border:1px solid rgb(218, 203, 203);
+            justify-content: center;
+        }
+    .box2
+    {
+        height: 50px;
+        width: 200px;
+        border: 3px solid rgb(180, 119, 119);
+        border-radius: 10px;
+    }
+    .box3
+    {
+        height: 300px;
+        width: 210px;
+        border: 3px solid rgb(180, 119, 119);
+        border-radius: 10px;
+        margin-left: 120px; 
+        /* margin-top: -10%; */
+        box-shadow: 5px 7px rgb(187, 186, 186); 
+    }
+    label
+    {
+        font-size: 10px;
+    }
+    h3
+    {
+        font-size: 20px; 
+    }
+    
+    #button
+{
+    margin-left: 5%;
+}
+
+}
