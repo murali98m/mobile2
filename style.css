@@ -28,6 +28,12 @@
 #button
 {
     margin-left: 50%;
+    text-decoration: none;
+}
+#button1
+{
+    text-decoration: none;
+    color:rgb(180, 119, 119);
 }
 span
 {
